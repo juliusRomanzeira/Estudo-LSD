@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity somador_subtrator_completo is
+port
+(
+
+A, B, Cin : in std_logic_vector(3 downto 0);
+Min : in std_logic;
+S: out std_logic_vector(4 downto 0)
+
+);
+end entity;
+
+architecture build of somador_subtrator_completo is
+
+signal Cout: std_logic_vector(3 downto 0);
+
+begin
+
+bit1: entity work.Somador_Subtrator_1Bit
+port map (A => A(0), B => B(0), M => Min, Cin => '0', S => S(0), Cout => Cout(0));
+
+bit2: entity work.Somador_Subtrator_1Bit
+port map (A => A(1), B => B(1), M => Min, Cin => Cout(0), S => S(1), Cout => Cout(1));
+
+bit3: entity work.Somador_Subtrator_1Bit
+port map (A => A(2), B => B(2), M => Min, Cin => Cout(1), S => S(2), Cout => S(3));
+
+end architecture;

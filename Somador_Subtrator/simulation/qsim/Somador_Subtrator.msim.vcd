@@ -1,0 +1,164 @@
+$comment
+	File created using the following command:
+		vcd file Somador_Subtrator.msim.vcd -direction
+$end
+$date
+	Tue Sep 06 17:43:20 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module somador_subtrator_completo_vhd_vec_tst $end
+$var wire 1 ! A [3] $end
+$var wire 1 " A [2] $end
+$var wire 1 # A [1] $end
+$var wire 1 $ A [0] $end
+$var wire 1 % B [3] $end
+$var wire 1 & B [2] $end
+$var wire 1 ' B [1] $end
+$var wire 1 ( B [0] $end
+$var wire 1 ) Cin [3] $end
+$var wire 1 * Cin [2] $end
+$var wire 1 + Cin [1] $end
+$var wire 1 , Cin [0] $end
+$var wire 1 - Min $end
+$var wire 1 . S [4] $end
+$var wire 1 / S [3] $end
+$var wire 1 0 S [2] $end
+$var wire 1 1 S [1] $end
+$var wire 1 2 S [0] $end
+$scope module i1 $end
+$var wire 1 3 gnd $end
+$var wire 1 4 vcc $end
+$var wire 1 5 unknown $end
+$var wire 1 6 devoe $end
+$var wire 1 7 devclrn $end
+$var wire 1 8 devpor $end
+$var wire 1 9 ww_devoe $end
+$var wire 1 : ww_devclrn $end
+$var wire 1 ; ww_devpor $end
+$var wire 1 < ww_A [3] $end
+$var wire 1 = ww_A [2] $end
+$var wire 1 > ww_A [1] $end
+$var wire 1 ? ww_A [0] $end
+$var wire 1 @ ww_B [3] $end
+$var wire 1 A ww_B [2] $end
+$var wire 1 B ww_B [1] $end
+$var wire 1 C ww_B [0] $end
+$var wire 1 D ww_Cin [3] $end
+$var wire 1 E ww_Cin [2] $end
+$var wire 1 F ww_Cin [1] $end
+$var wire 1 G ww_Cin [0] $end
+$var wire 1 H ww_Min $end
+$var wire 1 I ww_S [4] $end
+$var wire 1 J ww_S [3] $end
+$var wire 1 K ww_S [2] $end
+$var wire 1 L ww_S [1] $end
+$var wire 1 M ww_S [0] $end
+$var wire 1 N \Cin[0]~input_o\ $end
+$var wire 1 O \Cin[1]~input_o\ $end
+$var wire 1 P \Cin[2]~input_o\ $end
+$var wire 1 Q \Cin[3]~input_o\ $end
+$var wire 1 R \S[0]~output_o\ $end
+$var wire 1 S \S[1]~output_o\ $end
+$var wire 1 T \S[2]~output_o\ $end
+$var wire 1 U \S[3]~output_o\ $end
+$var wire 1 V \S[4]~output_o\ $end
+$var wire 1 W \A[0]~input_o\ $end
+$var wire 1 X \B[0]~input_o\ $end
+$var wire 1 Y \bit1|S~0_combout\ $end
+$var wire 1 Z \A[1]~input_o\ $end
+$var wire 1 [ \B[1]~input_o\ $end
+$var wire 1 \ \Min~input_o\ $end
+$var wire 1 ] \bit1|Cout~0_combout\ $end
+$var wire 1 ^ \bit2|S~combout\ $end
+$var wire 1 _ \bit2|Cout~0_combout\ $end
+$var wire 1 ` \B[2]~input_o\ $end
+$var wire 1 a \A[2]~input_o\ $end
+$var wire 1 b \bit3|S~0_combout\ $end
+$var wire 1 c \bit3|Cout~0_combout\ $end
+$var wire 1 d \B[3]~input_o\ $end
+$var wire 1 e \A[3]~input_o\ $end
+$var wire 1 f \bit4|S~0_combout\ $end
+$var wire 1 g \bit4|Cout~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1-
+03
+14
+x5
+16
+17
+18
+19
+1:
+1;
+1H
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+1U
+0V
+0W
+0X
+0Y
+1Z
+1[
+1\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+1e
+1f
+0g
+1!
+0"
+1#
+0$
+0%
+0&
+1'
+0(
+0)
+0*
+0+
+0,
+1<
+0=
+1>
+0?
+0@
+0A
+1B
+0C
+0D
+0E
+0F
+0G
+0I
+1J
+0K
+0L
+0M
+0.
+1/
+00
+01
+02
+$end
+#1000000

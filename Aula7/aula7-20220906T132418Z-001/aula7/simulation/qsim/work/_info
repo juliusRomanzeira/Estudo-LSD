@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\Desktop\Julius Cesar e Jose Lucas\Anotacoes_aulas\aula7\simulation\qsim
+vExercicio_Elevador
+Z1 IG5H<IMRaO__W_SVjHmb?11
+Z2 V96VS`gobM`KNI`AE8bbF?3
+Z3 dC:\Users\Aluno\Desktop\Julius Cesar e Jose Lucas\Anotacoes_aulas\aula7\simulation\qsim
+Z4 w1659102930
+Z5 8Exercicio_Elevador.vo
+Z6 FExercicio_Elevador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@exercicio_@elevador
+!i10b 1
+Z10 !s100 Bon8da?mi2g?Mo;4^d[@41
+!s85 0
+Z11 !s108 1659102931.667000
+Z12 !s107 Exercicio_Elevador.vo|
+Z13 !s90 -work|work|Exercicio_Elevador.vo|
+!s101 -O0
+vExercicio_Elevador_vlg_check_tst
+!i10b 1
+!s100 nabV17:1lA6Z1a16Z?h1:2
+ISkbLNc5fidXP5B9[QcTQ]0
+V:JbVbI;CjZ]i=IA7YK[GY1
+R3
+Z14 w1659102929
+Z15 8Exercicio_Elevador.vt
+Z16 FExercicio_Elevador.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z17 !s108 1659102931.745000
+Z18 !s107 Exercicio_Elevador.vt|
+Z19 !s90 -work|work|Exercicio_Elevador.vt|
+!s101 -O0
+R8
+n@exercicio_@elevador_vlg_check_tst
+vExercicio_Elevador_vlg_sample_tst
+!i10b 1
+!s100 8NVoLTbN9b;kNYM40[_RZ3
+IfUG^61KU]lmgS=h[W8d8]1
+VNi=Td`4_8NNFiKS^mG><32
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@exercicio_@elevador_vlg_sample_tst
+vExercicio_Elevador_vlg_vec_tst
+!i10b 1
+!s100 cCcNRSm_j_13oT8gbKXCD3
+I@ai`nZXeYWj?416Q2aQP00
+VHhdBGXf:3XbCdML_B:CC10
+R3
+R14
+R15
+R16
+L0 158
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@exercicio_@elevador_vlg_vec_tst

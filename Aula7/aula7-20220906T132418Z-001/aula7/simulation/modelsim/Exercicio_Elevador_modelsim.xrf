@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Aluno/Desktop/Julius Cesar e Jose Lucas/Anotacoes_aulas/aula7/Exercicio_Elevador.vhd
+source_file = 1, C:/Users/Aluno/Desktop/Julius Cesar e Jose Lucas/Anotacoes_aulas/aula7/Waveform.vwf
+source_file = 1, C:/Users/Aluno/Desktop/Julius Cesar e Jose Lucas/Anotacoes_aulas/aula7/db/Exercicio_Elevador.cbx.xml
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Exercicio_Elevador
+instance = comp, \X~output , X~output, Exercicio_Elevador, 1
+instance = comp, \D~input , D~input, Exercicio_Elevador, 1
+instance = comp, \B~input , B~input, Exercicio_Elevador, 1
+instance = comp, \C~input , C~input, Exercicio_Elevador, 1
+instance = comp, \A~input , A~input, Exercicio_Elevador, 1
+instance = comp, \X~0 , X~0, Exercicio_Elevador, 1

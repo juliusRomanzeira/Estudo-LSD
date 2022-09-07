@@ -1,0 +1,282 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\JULIUS\OneDrive\Faculdade\Programacao\Quarto_Periodo\Laboratorio_Sistemas_Digitais\Somador_Subtrator\simulation\qsim
+Ehard_block
+Z1 w1662496999
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JXN2=2dBmk60UUeC1Ud>;1
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 IlzlMe[@YjW3?h4::UWnM2
+Z8 dC:\Users\JULIUS\OneDrive\Faculdade\Programacao\Quarto_Periodo\Laboratorio_Sistemas_Digitais\Somador_Subtrator\simulation\qsim
+Z9 8Somador_Subtrator.vho
+Z10 FSomador_Subtrator.vho
+l0
+L35
+ViB[@XD6>4f^a@az=ll8LZ1
+Z11 OV;C;10.1d;51
+32
+Z12 !s108 1662497000.438000
+Z13 !s90 -work|work|Somador_Subtrator.vho|
+Z14 !s107 Somador_Subtrator.vho|
+Z15 o-work work -O0
+Z16 tExplicit 1
+!s100 >?P07FeHTlkQ]D[:a1EYW1
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 iB[@XD6>4f^a@az=ll8LZ1
+l65
+L51
+VhZ4711OZWWPD=Sj=TIZU22
+!s100 n5ROgQHRbX=V=`FD[cb?90
+R11
+32
+R12
+R13
+R14
+R15
+R16
+!i10b 1
+Esomador_subtrator
+Z17 w1662494417
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L78
+V;lP?Si0`]l8AM4Tk<=0bE3
+R11
+32
+Z18 !s108 1662494418.257000
+R13
+R14
+R15
+R16
+!s100 ?1X;58;X5mHJ1jKi;0@OB0
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 17 somador_subtrator 0 22 ;lP?Si0`]l8AM4Tk<=0bE3
+l130
+L98
+VH9UF;Vc3H5F4:=o^ZQXLU0
+R11
+32
+R18
+R13
+R14
+R15
+R16
+!s100 7;>?fDK1dNbD??z;>gSlG0
+!i10b 1
+Esomador_subtrator_1bit
+Z19 w1662494639
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L78
+V<@d47cTa9SNNCF=BS1QEZ1
+R11
+32
+Z20 !s108 1662494640.272000
+R13
+R14
+R15
+R16
+!s100 42_Y<ISlI62mU^d47]YAz3
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 22 somador_subtrator_1bit 0 22 <@d47cTa9SNNCF=BS1QEZ1
+l130
+L98
+VI^km_cF2NVL>YTob`z;8A0
+R11
+32
+R20
+R13
+R14
+R15
+R16
+!s100 >^><N5oSF8^e@IETNVV7D3
+!i10b 1
+Esomador_subtrator_1bit_vhd_vec_tst
+Z21 w1662494638
+R5
+R6
+R8
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L32
+VAPS4;A40zFo@edPlL5<?h1
+R11
+32
+Z24 !s108 1662494640.352000
+Z25 !s90 -work|work|Waveform.vwf.vht|
+Z26 !s107 Waveform.vwf.vht|
+R15
+R16
+!s100 fn?V68Y`=>5cfKmYZ3ejo3
+!i10b 1
+Asomador_subtrator_1bit_arch
+R5
+R6
+DEx4 work 34 somador_subtrator_1bit_vhd_vec_tst 0 22 APS4;A40zFo@edPlL5<?h1
+l53
+L34
+VT3HaZ;nibJWJ`go]6BcId2
+R11
+32
+R24
+R25
+R26
+R15
+R16
+!s100 >Y6;eKNmfM:lThdK[mZ:Y3
+!i10b 1
+Esomador_subtrator_completo
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L78
+VO:8ee21P>>0Yba97CcLdk2
+R11
+32
+R12
+R13
+R14
+R15
+R16
+!s100 PmSYeQc3:74FaLd]Se?4S1
+!i10b 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 26 somador_subtrator_completo 0 22 O:8ee21P>>0Yba97CcLdk2
+l158
+L109
+VdGV69AV3=6b[IPHKh^R5[0
+!s100 KOiJ9GB?Pk6XY71h9[boZ1
+R11
+32
+R12
+R13
+R14
+R15
+R16
+!i10b 1
+Esomador_subtrator_completo_vhd_vec_tst
+Z27 w1662496998
+R5
+R6
+R8
+R22
+R23
+l0
+L32
+V?7W@Hl8Bojdh:XeA:JQ?h3
+!s100 e]__o3LJlZ^;?WRj3=:Zi0
+R11
+32
+!i10b 1
+Z28 !s108 1662497000.549000
+R25
+Z29 !s107 Waveform.vwf.vht|
+R15
+R16
+Asomador_subtrator_completo_arch
+R5
+R6
+Z30 DEx4 work 38 somador_subtrator_completo_vhd_vec_tst 0 22 ?7W@Hl8Bojdh:XeA:JQ?h3
+l51
+L34
+VQWR_6FbGSQ:gK:egFJnR63
+!s100 O]YAKRo=4`_=a2YM51RCh0
+R11
+32
+!i10b 1
+R28
+R25
+R29
+R15
+R16
+Esomador_subtrator_vhd_vec_tst
+Z31 w1662494416
+R5
+R6
+R8
+R22
+R23
+l0
+L32
+VU;mSj<n2eHUmA61C68YE32
+R11
+32
+Z32 !s108 1662494418.338000
+R25
+R26
+R15
+R16
+!s100 QUIC_63m?NMWmz:cMZ48j2
+!i10b 1
+Asomador_subtrator_arch
+R5
+R6
+DEx4 work 29 somador_subtrator_vhd_vec_tst 0 22 U;mSj<n2eHUmA61C68YE32
+l53
+L34
+V:7MQz<QNd28c:geM?EVfR1
+R11
+32
+R32
+R25
+R26
+R15
+R16
+!s100 BKdik]A>[G:L<le71FYYl3
+!i10b 1

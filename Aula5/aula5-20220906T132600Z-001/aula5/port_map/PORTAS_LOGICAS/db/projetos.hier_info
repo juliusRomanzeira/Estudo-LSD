@@ -1,0 +1,6 @@
+|programa_secundario3
+entrada0 => saida.IN0
+entrada1 => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

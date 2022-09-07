@@ -1,0 +1,80 @@
+|somador_subtrator_completo
+A[0] => somador_subtrator_1bit:bit1.A
+A[1] => somador_subtrator_1bit:bit2.A
+A[2] => somador_subtrator_1bit:bit3.A
+A[3] => somador_subtrator_1bit:bit4.A
+B[0] => somador_subtrator_1bit:bit1.B
+B[1] => somador_subtrator_1bit:bit2.B
+B[2] => somador_subtrator_1bit:bit3.B
+B[3] => somador_subtrator_1bit:bit4.B
+Cin[0] => ~NO_FANOUT~
+Cin[1] => ~NO_FANOUT~
+Cin[2] => ~NO_FANOUT~
+Cin[3] => ~NO_FANOUT~
+Min => somador_subtrator_1bit:bit1.M
+Min => somador_subtrator_1bit:bit2.M
+Min => somador_subtrator_1bit:bit3.M
+Min => somador_subtrator_1bit:bit4.M
+S[0] <= somador_subtrator_1bit:bit1.S
+S[1] <= somador_subtrator_1bit:bit2.S
+S[2] <= somador_subtrator_1bit:bit3.S
+S[3] <= somador_subtrator_1bit:bit4.S
+S[4] <= somador_subtrator_1bit:bit4.Cout
+
+
+|somador_subtrator_completo|somador_subtrator_1Bit:bit1
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN0
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+M => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_subtrator_completo|somador_subtrator_1Bit:bit2
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN0
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+M => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_subtrator_completo|somador_subtrator_1Bit:bit3
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN0
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+M => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_subtrator_completo|somador_subtrator_1Bit:bit4
+A => S.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN0
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+M => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
