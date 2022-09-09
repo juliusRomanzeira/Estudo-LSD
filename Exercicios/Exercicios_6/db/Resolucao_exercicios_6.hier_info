@@ -1,0 +1,8 @@
+|ex_6_3
+F[0] => Mux0.IN19
+F[1] => Mux0.IN18
+F[2] => Mux0.IN17
+F[3] => Mux0.IN16
+O <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
