@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity variaveis is
+
+end entity;
+
+architecture build of variaveis is
+
+signal: x: integer:= '0';
+
+begin
+
+
+count: for i in 6 downto 0 loop
+
+x<= x+'1';
+
+end loop count;
+
+report "Valor de X: "& integer'image(x); 
+
+end architecture;
